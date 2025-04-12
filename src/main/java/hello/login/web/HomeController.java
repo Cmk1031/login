@@ -54,7 +54,7 @@ public class HomeController {
         return "loginHome";
     }*/
 
-    @GetMapping("/")
+    /*@GetMapping("/")
     public String homeLoginV3(HttpServletRequest request, Model model) {
 
         HttpSession session = request.getSession(false);
@@ -69,7 +69,7 @@ public class HomeController {
         // 세션이 유지되면 로그인으로 이동
         model.addAttribute("member", loginMember);
         return "loginHome";
-    }
+    }*/
 
     @GetMapping("/")
     public String homeLoginV3Spring(
